@@ -1,0 +1,233 @@
+@import url('/home.css');
+
+:root{
+    --boxShadow : 0 0 2px rgb(92, 90, 90);
+}
+
+.top-title{
+    /* background-color: var(--bgClr2); */
+    height: auto;
+    width: 50%;
+    margin: 25px auto;
+    color: #000;
+    border-radius: 4px;
+    display: flex;
+    font-weight: 200;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: 'Fredoka One', cursive;
+}
+.trending-row .imagebox{
+    width: 100%;
+    height: 600px;
+    border-radius: 7px;
+}
+
+.trending-row .imagebox img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+.image{
+    width: 100%;
+    height: 160px;
+    border-radius: 7px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+.trending-row .details{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: auto;
+    padding:15px;
+    width: 100%;
+    border-radius: 9px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: var(--boxShadow);
+}
+.trending-row .details ul li{
+    list-style: square;
+}
+.trending-row .details p{
+    margin-left: 20px;
+    font-weight: 700;
+    line-height: 15px;
+}
+.trending-row .details p span{
+    font-weight: 200;
+    line-height: 20px;
+}
+.trending-row .price{
+    width: 100%;
+    border-radius: 7px;
+    height: 100px;
+    box-shadow: var(--boxShadow);
+    margin-bottom: 20px;
+}
+.trending-row .user-info{
+    border-radius: 7px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: var(--boxShadow);
+}
+.top-info{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 15px;
+}
+.bottom-info{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 15px;
+}
+.bottom-info p{
+    line-height: 2px;
+}
+.userImgbox{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 100%; */
+}
+.userImgbox img{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+.user-names{
+    padding: 3px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.mobile-title{
+    color: skyblue;
+    font-size: 15px;
+    font-weight: 800;
+}
+.mobile{
+    font-size: 23px;
+    color: #000;
+    font-weight: bold;
+}
+.sendMsg{
+    background-color: var(--bgClr2);
+    color: #fff;
+    text-decoration: none;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.sendMsg:hover{
+    color: #000;
+}
+@media screen and (max-width:500px){
+    .trending-row .imagebox{
+        width: 100%;
+        height: 340px;
+        border-radius: 7px;
+    }
+    .image{
+        width: 100%;
+        height: 240px;
+        border-radius: 7px;
+    }
+}
+@media screen and (max-width:800px){
+    .trending-row .imagebox{
+        width: 100%;
+        height: 300px;
+        border-radius: 7px;
+    }
+
+}
+
+
+.related-ads-box{
+    padding-bottom: 70px;
+}
+/* .ads{
+} */
+.related-ads-heading{
+    margin-left: 15px;
+    font-size: 24px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding: 15px;
+    color: #000;
+    font-family: 'Fredoka One', cursive;
+
+}
+/* .related-ads-heading::after{
+    content: " ";
+    display: block;
+    width: 34px;
+    height: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: var(--bgClr);
+} */
+.price img{
+    width: 40px;
+    height: 40px;
+}
+.price .top, .price{
+    /* font-size: 35px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 40px; */
+    /* padding: 10px; */
+}
+.price{
+    flex-direction: column;
+}
+.btm{
+    margin-top: -25px;
+    font-size: bold;
+}
+.price p{
+    font-size: 35px;
+    margin-top: 17px;
+}
+.carousel-item img{
+    height: 550px !important;
+}
+
+@media screen and (max-width: 900px){
+    .carousel-item img{
+        height: 300px !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .carousel-item img{
+        height: 300px !important;
+    }
+}

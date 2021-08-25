@@ -1,0 +1,73 @@
+@import url('home.css');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.photography{
+    width: 100%;
+    /* background-color: red; */
+    background-image: url("/css/photography.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.headingText{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bodyText{
+    font-size: 15px;
+    font-weight: 600;
+    width: 80%;
+    text-align: center;
+}
+/* catering services */
+.catering-services{
+    width: 100%;
+    /* background-color: red; */
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-image: url("/css/catering.jpg");
+}
+
+
+/* event consultation */
+.event-consultation{
+    width: 100%;
+    /* background-color: red; */
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-image: url("/css/event-consultation.png");
+}
+@media screen and (min-width: 700px){
+    .headingText{
+        font-family: 'Pacifico', cursive;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    .bodyText{
+        font-size: 20px;
+        font-weight: 600;
+        width: 60%;
+        text-align: center;
+    }
+}
